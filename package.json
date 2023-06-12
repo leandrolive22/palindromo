@@ -1,0 +1,27 @@
+{
+  "name": "yy-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indes.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Leandro Alysson",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "nookies": "^2.5.2",
+    "pagarme": "^4.32.0",
+    "request": "^2.88.2",
+    "routes": "^2.1.0",
+    "sequelize": "^6.21.3"
+  }
+}
